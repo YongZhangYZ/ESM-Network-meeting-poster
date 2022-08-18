@@ -1,4 +1,4 @@
-# ESMNetwork-meeting-poster
+# ESM Network meeting: poster
 
 ## Abstract
 There are two common timeframes which ESM items refer to: the present moment (i.e., momentary) or a specific time interval in the past (i.e., retrospective). In a lag-one vector autoregressive model, the contemporaneous relations between variables are often of interest to researchers. When momentary and retrospective items are measured at the same prompt, modelling the undirected contemporaneous relations between them as correlated residuals is conceptually insufficient because the two types of items are actually asynchronous. This approach cannot test the potential causal effect which the retrospective item has on the momentary item, which could hamper the forming of valid causal inferences, an important goal for ESM research in clinical psychology. 
