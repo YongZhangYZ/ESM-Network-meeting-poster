@@ -4,7 +4,6 @@ title: Modelling contemporaneous relations between ESM items measured in differe
 author:
   - name: Yong Zhang
     affil: 1
-    #orcid: '0000-0002-6313-2575'
   - name: Jojanneke A. Bastiaansen
     affil: 2
   - name: Laura F. Bringmann
@@ -49,8 +48,6 @@ Two common timeframes of ESM items: `momentary` (e.g. I feel ... *right now*) an
 `r icon_style(icons::fontawesome("thumbs-down", style = "solid"), fill = "#035AA6")` When there is any retrospective variable involved, it is not clear whether contemporaneous or lagged effects should be tested.\
 `r icon_style(icons::fontawesome("bell", style = "solid"), fill = "#035AA6")` ESM studies combining measures in both timeframes are common. Yet problems of overly relying on basic VAR models in such studies are not dealt with sufficiently, where contemporaneous relations are modelled as correlated residuals and unable to reflect any theory-based causal inference.
 
-<!-- There are two common timeframes which ESM items refer to: the present moment (i.e., `momentary`) or a specific time interval in the past (i.e., `retrospective`). In a lag-one vector autoregressive model, the contemporaneous relations between variables are often of interest to researchers. When momentary and retrospective items are measured at the same prompt, modelling the undirected contemporaneous relations between them as correlated residuals is conceptually insufficient because the two types of items are actually asynchronous. This approach cannot test the potential causal effect which the retrospective item has on the momentary item, which could hamper the forming of valid causal inferences, an important goal for ESM research in clinical psychology.  -->
-
 ## The current study
 
 Using data from a single-case study which included both momentary and retrospective measures, we explored the feasibility of a structural VAR (`SVAR`) model by comparing its **model fit indices** and performance in **cross-validation** with the corresponding VAR model.\
@@ -58,8 +55,6 @@ Using data from a single-case study which included both momentary and retrospect
 `r icon_style(icons::fontawesome("crown", style = "solid"), fill = "#035AA6")` Results of cross-validation suggest that the two models perform equally well in terms of predictive accuracy.\
 `r icon_style(icons::fontawesome("lightbulb", style = "solid"), fill = "#035AA6")` $~$ Based on the results, we recommend that researchers consider the more theory-driven approach of modelling the unidirectional contemporaneous effect in relevant future applications.
 
-
-<!-- In the current study, we explore another approach of modelling the directed contemporaneous effect by estimating the unidirectional path from the retrospective item to the momentary item instead of their correlated residuals. Based on data from a single-case study where momentary positive affect and retrospective physical activity were measured at an interval of 3 hours during the daytime, we compare the predictive accuracy of the two approaches using cross-validation techniques. Results suggest that the two approaches perform highly similarly in terms of model fit and predictive accuracy. Therefore, we recommend that researchers consider the more theory-driven approach of modelling the unidirectional contemporaneous effect in relevant future applications. -->
 
 # Data collection and preprocessing
 
@@ -110,4 +105,3 @@ This is the "simplest" example: N = 1, the retrospective period is the same as t
 ## Supplemental materials
 Data and the R script can be accessed via `r icon_style(icons::fontawesome("github"), fill = "#035AA6")` :     https://github.com/YongZhangYZ/ESM-Network-meeting-poster.git  
 
-<!-- # References -->
